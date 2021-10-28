@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    /* #D4E6F1  */
+}
+.header{
+    width: 100vw;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(206,92%,94%);
+}
+.question-div{
+    width: 60vw;
+    padding: 50px 80px;
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 9px 10px 13px -7px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 9px 10px 13px -7px rgba(0,0,0,0.69);
+    -moz-box-shadow: 9px 10px 13px -7px rgba(0,0,0,0.69);
+}
+.question-div h2{
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: bold ;
+}
+.question-div li{
+    font-size: 1.5rem ;
+    margin-top: 1.2rem;
+    list-style: none;
+}
+.btn-div{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.btn-div #submit,#next,#btn{
+ padding: 10px 30px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color:#74b9ff ;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top:40px;
+  cursor: pointer;
+}
+.btn-div #submit:hover,#next:hover{
+    background-color: #3498db;
+}
+#score-div{
+background-color: #95a5a6;
+margin-top: 3rem;
+padding: 2.5rem 3.5rem;
+box-shadow: 9px 10px 13px -7px rgba(0,0,0,0.69);
+-webkit-box-shadow: 9px 10px 13px -7px rgba(0,0,0,0.69);
+-moz-box-shadow: 9px 10px 13px -7px rgba(0,0,0,0.69);
+}
+.show-div{
+    display: none;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+#btn{
+    display: block;
+    margin: auto;
+    color: white;
+    background-color:#7bed9f;
+    margin-top: 30px;
+}
+.hide{
+    display: none;
+}
